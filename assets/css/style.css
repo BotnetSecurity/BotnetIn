@@ -648,7 +648,7 @@ section {
   font-size: 14px;
   line-height: 28px;
   margin-bottom: 0;
-  text-align: left;
+  text-align: center;
 }
 
 /* Why Us Section
@@ -710,9 +710,9 @@ section {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: #2d2b46;
+  background-image: url("../img/wp2757874.gif");
   background-size: cover;
-  padding: 40px 0;
+  padding: 60px 0;
 }
 
 #call-to-action .cta-title {
@@ -748,8 +748,8 @@ section {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #1bb1dc;
-  border: 3px solid #1bb1dc;
+  background: hsl(9, 87%, 39%);
+  border: 3px solid hsl(9, 87%, 39%);
 }
 
 /* Features Section
@@ -767,6 +767,7 @@ section {
 --------------------------------*/
 #portfolio {
   padding: 60px 0;
+  background-color:rgba(233, 233, 233, 0.864);
 }
 
 #portfolio #portfolio-flters {
@@ -774,6 +775,8 @@ section {
   margin: 5px 0 35px 0;
   list-style: none;
   text-align: center;
+  background-color:#fff;
+  border-radius: 50px;
 }
 
 #portfolio #portfolio-flters li {
