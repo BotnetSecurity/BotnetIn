@@ -593,6 +593,8 @@ section {
   transition: .5s;
 }
 
+
+
 /* Services Section
 --------------------------------*/
 #services {
@@ -767,7 +769,7 @@ section {
 /*My Popular Courses */
 #courses {
   padding: 60px 0;
-  background-color:#FFF8DC;
+  background-color:#fff8dc93;
 }
 
 #courses .member {
@@ -845,8 +847,53 @@ section {
 }
 /*My Popular Courses */
 
+/* Academy Section */
+#academy {
+  padding: 60px 0;
+  background-image: url(../img/wp2757874.gif) ;
+}
+#academy .box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 10px 40px 10px;
+  background-color: rgb(5, 18, 31);
+  box-shadow:0 10px 29px 0 black;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  
+}
+
+#academy .box:hover {
+  transform: scale(1.1);
+}
+#academy h3{
+  color: white;
+}
+#academy p{
+  color: white;
+}
+
+#academy .icon {
+  margin: 0 auto 15px auto;
+  padding-top: 12px;
+  display: inline-block;
+  text-align: center;
+  border-radius:50px ;
+  width: 40px;
+  height: 40px;
+  
+}
+#academy .title a{
+  color: white;
+  text-transform: uppercase;
+}
+
+}
 
 
+/* Academy Section */
 
 /* Testimonials Section
 --------------------------------*/
