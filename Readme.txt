@@ -1,6 +1,2 @@
-Thanks for downloading this template!
+#This is Official Source Code of Botnet Security Organization.
 
-Template Name: Rapid
-Template URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
