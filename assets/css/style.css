@@ -454,7 +454,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#hero .intro-info .btn-get-started, #hero .intro-info .btn-services #courses {
+#hero .intro-info .btn-get-started, #hero .intro-info .btn-services  {
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
   font-weight: 600;
@@ -516,6 +516,7 @@ section {
 --------------------------------*/
 #about {
   padding: 80px 0;
+  
 }
 
 #about .about-content {
@@ -710,7 +711,7 @@ section {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background-image: url("../img/wp2757874.gif");
+  background-color:#10131d;
   background-size: cover;
   padding: 60px 0;
 }
@@ -767,6 +768,7 @@ section {
 #courses {
   padding: 60px 0;
   background-color:#fff8dc93;
+  text-align: center;
 }
 
 #courses .member {
@@ -834,12 +836,25 @@ section {
   font-size: 18px;
   margin: 0 2px;
 }
-#courses .btn-danger{
-  margin: 0;
-  position: absolute;
-  box-shadow: wheat;
-  border-radius: 5px;
-  left: 40%;
+
+
+#courses .btn-get-started {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: white;
+  background-color: #dc1b4b;
+  text-align: center;
+
+}
+
+#courses .btn-get-started:hover {
+  background-color: #0a98c0;
   
 }
 /*My Popular Courses */
@@ -847,6 +862,7 @@ section {
 /* Academy Section */
 #academy {
   padding: 60px 0;
+  text-align: center;
   background-image: url(../img/wp2757874.gif) ;
 }
 #academy .box {
@@ -855,7 +871,7 @@ section {
   overflow: hidden;
   border-radius: 10px;
   margin: 0 10px 40px 10px;
-  background-color: rgb(5, 18, 31);
+  background-color: rgba(0, 0, 0, 0.609);
   box-shadow:0 10px 29px 0 black;
   transition: all 0.3s ease-in-out;
   text-align: center;
@@ -887,7 +903,20 @@ section {
   text-transform: uppercase;
 }
 
-
+#academy .btn-get-started {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: white;
+  background-color: #dc1b4b;
+  
+}
 
 
 /* Academy Section */
@@ -923,7 +952,7 @@ section {
 }
 
 #testimonials .testimonial-item h3 {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #111;
