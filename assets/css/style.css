@@ -52,6 +52,10 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 12px;
   color: #fff;
 }
+.back-to-top:hover {
+  background-color: #c51b1b;
+  
+}
 
 @media (max-width: 768px) {
   .back-to-top {
@@ -358,18 +362,20 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   z-index: 9998;
   border: 0;
-  background: none;
+  background:none;
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
   line-height: 1;
   cursor: pointer;
   text-align: right;
+  
 }
 
 .mobile-nav-toggle i {
   margin: 18px 18px 0 0;
-  color: #065e77;
+  color: #11265ddc;
+ 
 }
 
 .mobile-nav-overly {
@@ -390,6 +396,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav-active .mobile-nav {
   left: 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
@@ -856,6 +865,12 @@ section {
 #courses .btn-get-started:hover {
   background-color: #0a98c0;
   
+}
+#courses .price p{
+  color: white;
+}
+#courses .price b{
+  color: orange;
 }
 /*My Popular Courses */
 
